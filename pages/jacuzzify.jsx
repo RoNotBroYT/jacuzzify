@@ -1,16 +1,19 @@
+// pages/jacuzzify.jsx
+import React from 'react';
+
 const testResults = [
-  { date: "04-08-2025", bromine: 0.5, alkalinity: 40, pH: 0 },
-  { date: "00-00-000", bromine: 0, alkalinity: 115, pH: 0 },
-  { date: "00-00-0000", bromine: 0, alkalinity: 118, pH: 0 },
+  { date: '04-08-2025', bromine: 0.5, alkalinity: 40, pH: 6.2 },
+  { date: '00-00-0000', bromine: 4, alkalinity: 85, pH: 7.6 },
+  { date: '00-00-0000', bromine: 2, alkalinity: 78, pH: 7.4 },
 ];
 
 export default function Jacuzzify() {
   return (
     <>
-      <style>{\`
+      <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
-        body,html,#__next {
+        body, html, #__next {
           margin: 0; padding: 0; height: 100%;
           font-family: 'Orbitron', monospace, sans-serif;
           background: #000;
@@ -95,7 +98,7 @@ export default function Jacuzzify() {
             padding: 0.5rem 0.75rem;
           }
         }
-      \`}</style>
+      `}</style>
 
       <div className="cloud-bg"></div>
 
