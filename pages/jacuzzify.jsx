@@ -1,7 +1,7 @@
 const testResults = [
-  { date: "2025-08-01", bromine: 3.5, alkalinity: 120, pH: 7.6 },
-  { date: "2025-08-03", bromine: 4.0, alkalinity: 115, pH: 7.4 },
-  { date: "2025-08-05", bromine: 3.8, alkalinity: 118, pH: 7.5 },
+  { date: "04-08-2025", bromine: 0.5, alkalinity: 40, pH: 0 },
+  { date: "00-00-000", bromine: 0, alkalinity: 115, pH: 0 },
+  { date: "00-00-0000", bromine: 0, alkalinity: 118, pH: 0 },
 ];
 
 export default function Jacuzzify() {
